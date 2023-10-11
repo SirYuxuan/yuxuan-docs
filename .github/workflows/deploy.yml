@@ -22,7 +22,7 @@ jobs:
       run: npm i -g pnpm
     - run: pnpm install
     - run: pnpm run docs:build
-    - run: zip -r data.zip ./vitepress/dist/*
+    - run: zip -r data.zip .vitepress/dist/
     - run: ls -l
    
     # 上传部署
@@ -39,5 +39,5 @@ jobs:
         last_ssh: |
           echo $LASTSSH 
           cd /mnt/project/web/docs
-          unzip -o dist.zip
-          rm dist.zip
+          unzip -o data.zip
+          rm data.zip
