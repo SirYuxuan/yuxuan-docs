@@ -1,25 +1,37 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 雨轩软件
+titleTemplate: 编程改变世界
+
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "YuxuanSoft"
+  text: "Soft Docs & Public Api Docs"
+  tagline: Easy to use, fast open source
+
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 快速上手
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 项目简介
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+  - icon:
+      src: /cool-feature-icon.svg
+    title: Another cool feature
+    details: Lorem ipsum...
+  - icon:
+      dark: /dark-feature-icon.svg
+      light: /light-feature-icon.svg
+    title: Another cool feature
+    details: Lorem ipsum...
+
+footer: 111
 ---
+
 
