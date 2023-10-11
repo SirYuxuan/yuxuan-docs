@@ -22,7 +22,7 @@ jobs:
       run: npm i -g pnpm
     - run: pnpm install
     - run: pnpm run docs:build
-    - run: cd ./.vitepress/dist/ & zip -r data.zip .
+    - run: zip -r data.zip .vitepress/dist/
     - run: ls -l
    
     # 上传部署
@@ -35,7 +35,7 @@ jobs:
         user: ${{ secrets.YUXUAN_MAIN_SERVER_USER }}
         pass: ${{ secrets.YUXUAN_MAIN_SERVER_PASS }}
         scp: |
-          ./.vitepress/dist/data.zip => /mnt/project/web/docs
+          ./data.zip => /mnt/project/web/docs
         last_ssh: |
           echo $LASTSSH 
           cd /mnt/project/web/docs
