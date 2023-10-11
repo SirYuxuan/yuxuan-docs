@@ -5,7 +5,7 @@ on:
   # workflow_dispatch:
   # 代码推送到master分支触发
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
