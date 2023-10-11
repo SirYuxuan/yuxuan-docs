@@ -22,7 +22,7 @@ jobs:
       run: npm i -g pnpm
     - run: pnpm install
     - run: pnpm run docs:build
-    - run: zip -r data.zip ./vitepress/dist/*
+    - run: zip -r data.zip ./.vitepress/dist/*
     - run: ls -l
    
     # 上传部署
