@@ -57,6 +57,13 @@ function sidebarPublicApi(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: '文本API',
+      collapsed: false,
+      items: [
+        { text: '每日一言', link: 'text#每日一言' },
+      ]
+    },
+    {
       text: '图片API',
       collapsed: false,
       items: [
