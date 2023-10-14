@@ -5,33 +5,20 @@ title: 雨轩软件
 titleTemplate: 编程改变世界
 
 hero:
-  name: "YuxuanSoft"
-  text: "Soft Docs & Public Api Docs"
-  tagline: Easy to use, fast open source
+  name: "雨轩开源"
+  text: "开源软件&公开API"
+  tagline: 简单使用，快乐开源
 
   actions:
     - theme: brand
-      text: 快速上手
-      link: /markdown-examples
-    - theme: alt
-      text: 项目简介
-      link: /api-examples
+      text: 公开API
+      link: /public-api/index
+    - theme: brand
+      text: 开源软件
+      link: /open-source/index
+    
 
-features:
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon:
-      src: /cool-feature-icon.svg
-    title: Another cool feature
-    details: Lorem ipsum...
-  - icon:
-      dark: /dark-feature-icon.svg
-      light: /light-feature-icon.svg
-    title: Another cool feature
-    details: Lorem ipsum...
 
-footer: 111
 ---
 
 

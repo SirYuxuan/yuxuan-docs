@@ -12,7 +12,7 @@ export default defineConfig({
     },
     sidebar: {
       '/public-api/': { base: '/public-api/', items: sidebarPublicApi() },
-      '/eve-manager/': { base: '/eve-manager/', items: sidebarEveManager() }
+      '/open-source/': { base: '/open-source/', items: sidebarOpenSource() }
     },
     editLink: {
       pattern: 'https://github.com/sirYuxuan/yuxuan-vue-wiki/edit/main/docs/:path',
@@ -40,9 +40,9 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/public-api/'
     },
     {
-      text: 'EVE管理系统',
-      link: '/eve-manager/index',
-      activeMatch: '/eve-manager/'
+      text: '开源软件',
+      link: '/open-source/index',
+      activeMatch: '/open-source/'
     },
   ]
 }
@@ -73,34 +73,13 @@ function sidebarPublicApi(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarEveManager(): DefaultTheme.SidebarItem[] {
+function sidebarOpenSource(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Reference',
+      text: 'Java项目',
+      collapsed: false,
       items: [
-        { text: 'Site Config', link: 'site-config' },
-        { text: 'Frontmatter Config', link: 'frontmatter-config' },
-        { text: 'Runtime API', link: 'runtime-api' },
-        { text: 'CLI', link: 'cli' },
-        {
-          text: 'Default Theme',
-          base: '/reference/default-theme-',
-          items: [
-            { text: 'Overview', link: 'config' },
-            { text: 'Nav', link: 'nav' },
-            { text: 'Sidebar', link: 'sidebar' },
-            { text: 'Home Page', link: 'home-page' },
-            { text: 'Footer', link: 'footer' },
-            { text: 'Layout', link: 'layout' },
-            { text: 'Badge', link: 'badge' },
-            { text: 'Team Page', link: 'team-page' },
-            { text: 'Prev / Next Links', link: 'prev-next-links' },
-            { text: 'Edit Link', link: 'edit-link' },
-            { text: 'Last Updated Timestamp', link: 'last-updated' },
-            { text: 'Search', link: 'search' },
-            { text: 'Carbon Ads', link: 'carbon-ads' }
-          ]
-        }
+        { text: 'wife-push', link: 'wife-push' },
       ]
     }
   ]
