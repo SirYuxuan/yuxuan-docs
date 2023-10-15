@@ -38,12 +38,12 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '公开API',
-      link: '/public-api/index',
+      link: '/public-api/welcome',
       activeMatch: '/public-api/'
     },
     {
       text: '开源软件',
-      link: '/open-source/index',
+      link: '/open-source/welcome',
       activeMatch: '/open-source/'
     },
   ]
