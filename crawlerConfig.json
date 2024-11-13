@@ -1,6 +1,6 @@
 {
   "index_name": "yuxuan.docs",
-  "start_urls": ["https://docs.yuxuan66.com/"],
+  "start_urls": ["https://docs.oofo.cc/"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {

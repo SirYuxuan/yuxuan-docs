@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 公开API
-      link: /public-api/index
+      link: /public-api/welcome
     - theme: brand
       text: 开源软件
-      link: /open-source/index
+      link: /open-source/welcome
 
 features:
   - icon: 📝

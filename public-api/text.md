@@ -1,8 +1,10 @@
-# 文本类API
+# 文本API
 ## 每日一言
 ### 请求
 
 `GET /text/oneDay`
+
+[点击尝试](https://api.oofo.cc/text/oneDay)
 ### 参数
 - 无
 ### 成功响应
