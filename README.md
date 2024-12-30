@@ -68,5 +68,3 @@ yuxuan-docs/
 欢迎提交 Issue 或 Pull Request 来帮助改进项目。
 
 ## 📝 开源协议
-
-本项目采用 [ISC License](LICENSE) 开源协议。 
